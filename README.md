@@ -15,11 +15,11 @@ This project repository contains resources related to the 1337 and 42 network ex
 - **Exercises**: Includes 120 exercises for the 1337 Piscine program and subject-specific C coding exercises.
 - **Configurations**: Example configurations for setting up subjects and exercises.
 
+## Disclaimer for 42/1337 staff :
+This project is not identical to the proposed exams and does not reflect 42 official exam. It is only meant to help 42 students to train on some exercises found on Github. It works simply by doing a DIFF on both versions. All the subjects have been found on Github. During my schooling at 42, this project helped me to understand a lot of notions like how to host a website, working with javascript, php and others. This project has been created with the sole purpose of helping students to understand their mistakes and improve themselves.
+
 ## Usage
 To use this repository:
 1. Clone the repository to your local machine.
    ```bash
    git clone https://github.com/SegFault777/1337-Exams.git
-
-##Disclaimer for 42/1337 staff :
-This project is not identical to the proposed exams and does not reflect 42 official exam. It is only meant to help 42 students to train on some exercises found on Github. It works simply by doing a DIFF on both versions. All the subjects have been found on Github. During my schooling at 42, this project helped me to understand a lot of notions like how to host a website, working with javascript, php and others. This project has been created with the sole purpose of helping students to understand their mistakes and improve themselves.
