@@ -1,4 +1,4 @@
-# Project Title: 1337 and 42 Network Exams and Exercises
+1337 and 42 Network Exams and Exercises
 
 ## Overview
 This project repository contains resources related to the 1337 and 42 network exams, along with exercises for the 1337 "Piscine" and 42 "Pool." It includes a collection of exam papers, coding exercises, and subject configurations for C programming ... thanks to SegFault777 .
