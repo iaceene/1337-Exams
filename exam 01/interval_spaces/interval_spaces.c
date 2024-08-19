@@ -12,29 +12,22 @@ int		is_alpha(char c)
 	return (0);
 }
 
-char	to_upper(char c)
+void	interval_space(char *str)
 {
-	if (c >= 'a' && c <= 'z')
-		return (c - 32);
-	return (c);
-}
-
-void	title_case(char *str)
-{
-	int		start_of_word = 1;
+	int		first_char = 1;
 
 	while (*str)
 	{
-		if (is_alpha(*str) && start_of_word)
+		if (is_alpha(*str))
 		{
-			ft_putchar(to_upper(*str));
-			start_of_word = 0;
-		}
-		else
-		{
+			if (!first_char)
+			{
+				ft_putchar(' ');
+				ft_putchar(' ');
+				ft_putchar(' ');
+			}
 			ft_putchar(*str);
-			if (*str == ' ')
-				start_of_word = 1;
+			first_char = 0;
 		}
 		str++;
 	}
@@ -44,7 +37,7 @@ void	title_case(char *str)
 int		main(int argc, char **argv)
 {
 	if (argc == 2)
-		title_case(argv[1]);
+		interval_space(argv[1]);
 	else
 		ft_putchar('\n');
 	return (0);
