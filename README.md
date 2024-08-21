@@ -23,7 +23,7 @@ ft_putstr
 ft_strcpy
 ft_strlen
 hello
-interval_spaces
+interval_space
 maff_alpha
 maff_revalpha
 only_a
@@ -48,7 +48,7 @@ ft_strlen
 ft_strrev
 ft_swap
 inter
-interval_spaces
+interval_space
 is_power_of_2
 last_word
 max
@@ -75,7 +75,7 @@ ft_strdup
 ft_strrev
 hidenp
 inter
-interval_spaces
+interval_space
 is_power_of_2
 last_word
 lcm
